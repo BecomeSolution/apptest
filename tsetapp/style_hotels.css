@@ -1,0 +1,16 @@
+/* style_hotels.css */
+
+/* Styles spécifiques pour la gestion des hôtels */
+#hotelForm {
+    margin-bottom: 2rem;
+}
+
+#hotelsSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fiche-hotel {
+    width: calc(33.33% - 1rem);
+}

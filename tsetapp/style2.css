@@ -1,0 +1,92 @@
+/* style2.css */
+
+/* Styles pour la page d'accueil */
+/* style2.css */
+
+/* Header */
+/* style2.css */
+
+/* Header */
+header {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+
+
+/* Styles pour les liens dans le menu */
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styles pour les boutons */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Styles pour les formulaires */
+form {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les fiches hôtel */
+.fiche-hotel {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}

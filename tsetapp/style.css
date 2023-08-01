@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#chambres {
+    margin-bottom: 10px;
+}
+
+.chambre {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#resultat {
+    padding: 10px;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    width: 100%;
+    margin: 10px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) td {
+    background-color: white;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+th, td {
+    text-align: center;
+    padding: 0 10px;
+    border-right: 1px solid black;
+}
+
+/* Supprimez la bordure du dernier élément th pour éviter une bordure sur le côté droit de la table */
+th:last-child, td:last-child {
+    border-right: none;
+}
+
+/* Ajout des définitions de largeur de colonne */
+td:nth-child(1), th:nth-child(1) {
+    width: 10%;
+}
+
+td:nth-child(2), th:nth-child(2), td:nth-child(3), th:nth-child(3), td:nth-child(5), th:nth-child(5) {
+    width: 15%;
+}
+
+td:nth-child(4), th:nth-child(4) {
+    width: 45%;
+}

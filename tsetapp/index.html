@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Accueil - Gestion d'Hôtels</title>
+    <link rel="stylesheet" type="text/css" href="style2.css"> <!-- Assurez-vous que le chemin vers votre fichier CSS est correct -->
+    <link rel="stylesheet" type="text/css" href="style_hotels.css"> <!-- Ajoutez ici le chemin vers votre fichier CSS pour la gestion des hôtels -->
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre site de gestion d'hôtels</h1>
+    </header>
+
+    <main>
+        <h2>Ajouter un nouvel hôtel</h2>
+        <form id="hotelForm">
+            <label for="nom">Nom de l'hôtel:</label>
+            <input type="text" id="nom" required>
+            <br>
+            <label for="etages">Nombre d'étages:</label>
+            <input type="number" id="etages" required>
+            <br>
+            <label for="chambresParEtage">Nombre de chambres par étage:</label>
+            <input type="number" id="chambresParEtage" required>
+            <br>
+            <button type="submit">Ajouter</button>
+        </form>
+
+        <section id="hotelsSection">
+            <!-- Ici, nous allons afficher les fiches des hôtels créés -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 - Gestion d'Hôtels</p>
+    </footer>
+
+    <script src="script_hotels.js"></script>
+</body>
+</html>
